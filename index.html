@@ -320,26 +320,30 @@
     }
     .org-card:hover { border-color: rgba(20,219,242,0.25); background: rgba(20,219,242,0.03); }
     .org-logo-box {
-      width: 100%; height: 140px; border-radius: 12px;
+      width: 100%; height: 140px;
+      border-radius: 12px;
       background: #ffffff;
       display: flex; align-items: center; justify-content: center;
-      font-family: var(--font-display); font-size: 1.2rem;
       overflow: hidden;
       margin-bottom: 0.75rem;
     }
     .org-logo-box img {
       width: 80%; height: 80%;
       object-fit: contain;
-      padding: 6px;
     }
     .org-name { font-size: 13px; font-weight: 600; color: var(--white); }
     .org-area { font-size: 11px; color: var(--muted); }
-    .org-rol {
+    .org-rol-1{
       display: inline-block; font-size: 10px; font-weight: 500;
       padding: 3px 9px; border-radius: 20px; width: fit-content;
-      background: rgba(255,255,255,0.05); color: rgba(255,255,255,0.4);
+      background: rgba(255,255,255,0.05); color: var(--magenta);
     }
-    .org-rol.main { background: rgba(239,46,242,0.12); color: var(--magenta); }
+    .org-rol-2{
+      display: inline-block; font-size: 10px; font-weight: 500;
+      padding: 3px 9px; border-radius: 20px; width: fit-content;
+      background: rgba(255,255,255,0.05); color: var(--lime);
+    }
+    .org-rol.main { background: rgba(239,46,242,0.12); color: var(--cyan); }
 
     /* ── EQUIPO ── */
     .equipo-grid {
@@ -738,28 +742,28 @@
         <span class="org-rol main">Organizadora Principal</span>
       </div>
       <!-- Agrega img src cuando tengas el logo, por ahora iniciales -->
-        <div class="org-card"><div class="org-logo-box"><img src="images/sbe-logo.png" alt="SBE"/></div><div class="org-name">SBE</div><div class="org-area">Ingenieria Biológica</div><span class="org-rol">Talleres Wet Lab</span></div>
+        <div class="org-card"><div class="org-logo-box"><img src="images/sbe-logo.png" alt="SBE"/></div><div class="org-name">SBE</div><div class="org-area">Ingenieria Biológica</div><span class="org-rol-1">Talleres Wet Lab</span></div>
         
-        <div class="org-card"><div class="org-logo-box"><img src="images/biomicas-logo.png" alt="BIOMICAS"/></div><div class="org-name">BIOMICAS</div><div class="org-area">Biología</div><span class="org-rol">Talleres Dry Lab</span></div>
+        <div class="org-card"><div class="org-logo-box"><img src="images/biomicas-logo.png" alt="BIOMICAS"/></div><div class="org-name">BIOMICAS</div><div class="org-area">Biología</div><span class="org-rol-2">Talleres Dry Lab</span></div>
         
-        <div class="org-card"><div class="org-logo-box"><img src="images/ieee-logo.png" alt="IEEE EMBS"/></div><div class="org-name">IEEE EMBS</div><div class="org-area">Ingeniería Biomédica</div><span class="org-rol">Talleres Dry Lab</span></div>
+        <div class="org-card"><div class="org-logo-box"><img src="images/ieee-logo.png" alt="IEEE EMBS"/></div><div class="org-name">IEEE EMBS</div><div class="org-area">Ingeniería Biomédica</div><span class="org-rol-2">Talleres Dry Lab</span></div>
         
-        <div class="org-card"><div class="org-logo-box"><img src="images/cba-logo.png" alt="CBA"/></div><div class="org-name">CBA</div><div class="org-area">Biología Computacional</div><span class="org-rol">Talleres Dry Lab</span></div>
+        <div class="org-card"><div class="org-logo-box"><img src="images/cba-logo.png" alt="CBA"/></div><div class="org-name">CBA</div><div class="org-area">Biología Computacional</div><span class="org-rol-2">Talleres Dry Lab</span></div>
         
-        <div class="org-card"><div class="org-logo-box"><img src="images/biomim-logo.jpg" alt="BIOMIM"/></div><div class="org-name">BIOMIM</div><div class="org-area">Investigación en biotecnología microbiana y bioprospecci+on molecular</div><span class="org-rol">Talleres Wet Lab</span></div>
+        <div class="org-card"><div class="org-logo-box"><img src="images/biomim-logo.jpg" alt="BIOMIM"/></div><div class="org-name">BIOMIM</div><div class="org-area">Investigación en biotecnología microbiana y bioprospecci+on molecular</div><span class="org-rol-1">Talleres Wet Lab</span></div>
         
-        <div class="org-card"><div class="org-logo-box"><img src="images/spbbc-logo.png" alt="SPBBC"/></div><div class="org-name">SPBBC</div><div class="org-area">Bioinformática y biología</div><span class="org-rol">Talleres Wet Lab</span></div>
-        <div class="org-card"><div class="org-logo-box"><img src="images/rsg-logo.png" alt="SPBBC"/></div><div class="org-name">RSG</div><div class="org-area">Bioinfórmatica</div><span class="org-rol">Talleres Wet Lab</span></div>
+        <div class="org-card"><div class="org-logo-box"><img src="images/spbbc-logo.png" alt="SPBBC"/></div><div class="org-name">SPBBC</div><div class="org-area">Bioinformática y biología</div><span class="org-rol-1">Talleres Wet Lab</span></div>
+        <div class="org-card"><div class="org-logo-box"><img src="images/rsg-logo.png" alt="SPBBC"/></div><div class="org-name">RSG</div><div class="org-area">Bioinfórmatica</div><span class="org-rol-1">Talleres Wet Lab</span></div>
       
-        <div class="org-card"><div class="org-logo-box"><img src="images/ubc-logo.png" alt="UBC"/></div><div class="org-name">UBC</div><div class="org-area">Biomecánica</div><span class="org-rol">Presentaciones</span></div>
+        <div class="org-card"><div class="org-logo-box"><img src="images/ubc-logo.png" alt="UBC"/></div><div class="org-name">UBC</div><div class="org-area">Biomecánica</div><span class="org-rol-1">Presentaciones</span></div>
         
-        <div class="org-card"><div class="org-logo-box"><img src="images/neurotec-logo.png" alt="NeuroUtec"/></div><div class="org-name">NeuroUtec</div><div class="org-area">Neurociencias</div><span class="org-rol">Talleres Wet y Dry Lab</span></div>
+        <div class="org-card"><div class="org-logo-box"><img src="images/neurotec-logo.png" alt="NeuroUtec"/></div><div class="org-name">NeuroUtec</div><div class="org-area">Neurociencias</div><span class="org-rol-2">Talleres Wet y Dry Lab</span></div>
         
-        <div class="org-card"><div class="org-logo-box"><img src="images/cbs-logo.png" alt="CBS"/></div><div class="org-name">CBS</div><div class="org-area">Biología sintética</div><span class="org-rol">Talleres Wet Lab</span></div>
+        <div class="org-card"><div class="org-logo-box"><img src="images/cbs-logo.png" alt="CBS"/></div><div class="org-name">CBS</div><div class="org-area">Biología sintética</div><span class="org-rol-1">Talleres Wet Lab</span></div>
         
-        <div class="org-card"><div class="org-logo-box"><img src="images/byos-logo.png" alt="Byos"/></div><div class="org-name">Byos</div><div class="org-area">Biología sintética  y biotecnología</div><span class="org-rol">Talleres Wet Lab</span></div>
+        <div class="org-card"><div class="org-logo-box"><img src="images/byos-logo.png" alt="Byos"/></div><div class="org-name">Byos</div><div class="org-area">Biología sintética  y biotecnología</div><span class="org-rol-1">Talleres Wet Lab</span></div>
         
-        <div class="org-card"><div class="org-logo-box"><img src="images/ciasur-logo.png" alt="CIASUR"/></div><div class="org-name">CIASUR</div><div class="org-area">Investigación ambiental</div><span class="org-rol">Talleres Wet Lab</span></div>
+        <div class="org-card"><div class="org-logo-box"><img src="images/ciasur-logo.png" alt="CIASUR"/></div><div class="org-name">CIASUR</div><div class="org-area">Investigación ambiental</div><span class="org-rol-2">Talleres Wet Lab</span></div>
     </div>
   </div>
 </div>
