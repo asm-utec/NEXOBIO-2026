@@ -316,7 +316,7 @@
       border: 1px solid var(--border);
       background: rgba(255,255,255,0.02);
       transition: border-color 0.2s, background 0.2s;
-      display: flex; flex-direction: column; gap: 8px;
+      display: flex; flex-direction: column; gap: 10px;
     }
     .org-card:hover { border-color: rgba(20,219,242,0.25); background: rgba(20,219,242,0.03); }
     .org-logo-box {
@@ -328,11 +328,11 @@
       margin-bottom: 0.75rem;
     }
     .org-logo-box img {
-      width: 100%; height: 100%;
+      width: 90%; height: 90%;
       object-fit: contain;
     }
-    .org-name { font-size: 13px; font-weight: 600; color: var(--white); }
-    .org-area { font-size: 11px; color: var(--muted); }
+    .org-name { font-size: 15px; font-weight: 600; color: var(--white);  justify-content: center; }
+    .org-area { font-size: 13px; color: var(--muted); }
     .org-rol-1{
       display: inline-block; font-size: 10px; font-weight: 500;
       padding: 3px 9px; border-radius: 20px; width: fit-content;
@@ -343,7 +343,7 @@
       padding: 3px 9px; border-radius: 20px; width: fit-content;
       background: rgba(255,255,255,0.05); color: var(--lime);
     }
-    .org-rol.main { background: rgba(239,46,242,0.12); color: var(--cyan); }
+    .org-rol.main { background: rgba(239,46,242,0.12); color: var(--magenta); }
 
     /* ── EQUIPO ── */
     .equipo-grid {
@@ -757,7 +757,7 @@
       
         <div class="org-card"><div class="org-logo-box"><img src="images/ubc-logo.png" alt="UBC"/></div><div class="org-name">UBC</div><div class="org-area">Biomecánica</div><span class="org-rol-1">Presentaciones</span></div>
         
-        <div class="org-card"><div class="org-logo-box"><img src="images/neurotec-logo.png" alt="NeuroUtec"/></div><div class="org-name">NeuroUtec</div><div class="org-area">Neurociencias</div><span class="org-rol-2">Talleres Wet y Dry Lab</span></div>
+        <div class="org-card"><div class="org-logo-box"><img src="images/neurotec-logo.png" alt="NeuroUtec"/></div><div class="org-name">NeuroUtec</div><div class="org-area">Neurociencias</div><span class="org-rol-1">Talleres Wet Lab</span><span class="org-rol-2">Talleres Dry Lab</span></div>
         
         <div class="org-card"><div class="org-logo-box"><img src="images/cbs-logo.png" alt="CBS"/></div><div class="org-name">CBS</div><div class="org-area">Biología sintética</div><span class="org-rol-1">Talleres Wet Lab</span></div>
         
