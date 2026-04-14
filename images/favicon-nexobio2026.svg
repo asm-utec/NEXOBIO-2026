@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <radialGradient id="g1" cx="30%" cy="25%" r="70%">
+      <stop offset="0%"   stop-color="#7FFFD4"/>
+      <stop offset="45%"  stop-color="#00CEC4"/>
+      <stop offset="100%" stop-color="#004A46"/>
+    </radialGradient>
+    <radialGradient id="gc" cx="35%" cy="30%" r="65%">
+      <stop offset="0%"   stop-color="#7FFFD4"/>
+      <stop offset="100%" stop-color="#006B66"/>
+    </radialGradient>
+  </defs>
+  <rect width="128" height="128" rx="18" fill="#080f08"/>
+  <g transform="translate(64,64) rotate(45) translate(-64,-64)">
+    <path d="M44 26 C47 34 51 43 57 52" stroke="url(#g1)" stroke-width="19" fill="none" stroke-linecap="round"/>
+    <path d="M44 26 C47 34 51 43 57 52" stroke="#7FFFD4" stroke-width="5.5" fill="none" stroke-linecap="round" opacity="0.35"/>
+    <path d="M84 26 C81 34 77 43 71 52" stroke="url(#g1)" stroke-width="19" fill="none" stroke-linecap="round"/>
+    <path d="M84 26 C81 34 77 43 71 52" stroke="#7FFFD4" stroke-width="5.5" fill="none" stroke-linecap="round" opacity="0.35"/>
+    <path d="M44 102 C47 94 51 85 57 76" stroke="url(#g1)" stroke-width="19" fill="none" stroke-linecap="round"/>
+    <path d="M44 102 C47 94 51 85 57 76" stroke="#DEFF6E" stroke-width="5.5" fill="none" stroke-linecap="round" opacity="0.4"/>
+    <path d="M84 102 C81 94 77 85 71 76" stroke="url(#g1)" stroke-width="19" fill="none" stroke-linecap="round"/>
+    <path d="M84 102 C81 94 77 85 71 76" stroke="#DEFF6E" stroke-width="5.5" fill="none" stroke-linecap="round" opacity="0.4"/>
+    <path d="M57 52 C60 57 61 60 64 64 C67 68 68 71 71 76" stroke="url(#g1)" stroke-width="19" fill="none" stroke-linecap="round"/>
+    <path d="M71 52 C68 57 67 60 64 64 C61 68 60 71 57 76" stroke="url(#g1)" stroke-width="19" fill="none" stroke-linecap="round"/>
+    <path d="M57 52 C60 57 61 60 64 64 C67 68 68 71 71 76" stroke="#DEFF6E" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.18"/>
+    <path d="M71 52 C68 57 67 60 64 64 C61 68 60 71 57 76" stroke="#7FFFD4" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.18"/>
+    <ellipse cx="64" cy="64" rx="9" ry="10" fill="url(#gc)"/>
+    <ellipse cx="61" cy="61" rx="3.5" ry="4" fill="#7FFFD4" opacity="0.45"/>
+  </g>
+</svg>
